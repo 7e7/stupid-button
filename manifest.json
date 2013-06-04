@@ -3,11 +3,11 @@
   "version": "0.1",
   "description": "Adds an important button to JIRA tickets",
   "permissions": [
-      "tabs", "http://issues.scrippsnetworks.com/browse/TENTPOLE-*"
+      "tabs", "--YOUR JIRA PROJECT TICKETS URL HERE--"
   ],
   "content_scripts": [
       {
-        "matches": ["http://issues.scrippsnetworks.com/browse/TENTPOLE-*"],
+        "matches": ["--YOUR JIRA PROJECT TICKETS URL HERE--"],
         "js": ["button.js"],
         "run_at":"document_end"
       }
