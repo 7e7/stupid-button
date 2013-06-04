@@ -1,0 +1,16 @@
+{
+  "name": "JIRA Button",
+  "version": "0.1",
+  "description": "Adds an important button to JIRA tickets",
+  "permissions": [
+      "tabs", "http://issues.scrippsnetworks.com/browse/TENTPOLE-*"
+  ],
+  "content_scripts": [
+      {
+        "matches": ["http://issues.scrippsnetworks.com/browse/TENTPOLE-*"],
+        "js": ["button.js"],
+        "run_at":"document_end"
+      }
+    ],
+    "manifest_version": 2
+}
