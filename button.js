@@ -7,7 +7,7 @@ stupidButton={
         button = document.createElement('a');
             button.id = "stupid"
             button.classList.add('toolbar-trigger')
-            button.innerText = "This is stupid ";
+            button.innerText = "Stupid ";
         counter = document.createElement('span');
             counter.classList.add('count');
             counter.style.background = "#c00";
